@@ -1,0 +1,185 @@
+[
+    {
+      "id": 1,
+      "name": "Chicken Vesuvio",
+      "healthLabels": ["Sugar-Conscious", "Peanut-Free", "Tree-Nut-Free"],
+      "cookTimeMinutes": 60,
+      "prepTimeMinutes": 10,
+      "ingredients": [
+        "1/2 cup olive oil",
+        "5 cloves garlic, peeled",
+        "2 large russet potatoes, peeled and cut into chunks",
+        "1 3-4 pound chicken, cut into 8 pieces (or 3 pound chicken legs)",
+        "3/4 cup white wine",
+        "3/4 cup chicken stock",
+        "3 tablespoons chopped parsley",
+        "1 tablespoon dried oregano",
+        "Salt and pepper",
+        "1 cup frozen peas, thawed"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Burnt-Scallion Fish",
+      "healthLabels": [
+        "Sugar-Conscious",
+        "Peanut-Free",
+        "Tree-Nut-Free",
+        "Alcohol-Free",
+        "Immuno-Supportive"
+      ],
+      "cookTimeMinutes": 60,
+      "prepTimeMinutes": 20,
+      "ingredients": [
+        "2 bunches scallions",
+        "8 tbsp. butter",
+        "2 8-oz. fish filets"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Salted Duck Eggs Recipe",
+      "healthLabels": [
+        "Sugar-Conscious",
+        "Vegetarian",
+        "Peanut-Free",
+        "Tree-Nut-Free",
+        "Alcohol-Free",
+        "Immuno-Supportive"
+      ],
+      "cookTimeMinutes": 120,
+      "prepTimeMinutes": 30,
+      "ingredients": [
+        "2 1/2 quarts water",
+        "3 cups kosher salt",
+        "One dozen (12) duck eggs"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Chocolate Covered Chocolates Recipe",
+      "healthLabels": [
+        "Vegetarian",
+        "Peanut-Free",
+        "Tree-Nut-Free",
+        "Alcohol-Free"
+      ],
+      "cookTimeMinutes": 60,
+      "prepTimeMinutes": 50,
+      "ingredients": [
+        "1 cup chocolate morsels (dark, milk, or white)",
+        "16-20 chocolate truffles"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Roast Goose",
+      "healthLabels": [
+        "Sugar-Conscious",
+        "Peanut-Free",
+        "Tree-Nut-Free",
+        "Alcohol-Free",
+        "Immuno-Supportive"
+      ],
+      "cookTimeMinutes": 60,
+      "prepTimeMinutes": 25,
+      "ingredients": [
+        "1 goose, 10-12 lbs (see note)",
+        "-- kosher salt and pepper"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Frog Legs with Garlic and Parsley",
+      "healthLabels": [
+        "Sugar-Conscious",
+        "Tree-Nut-Free",
+        "Alcohol-Free",
+        "Immuno-Supportive"
+      ],
+      "cookTimeMinutes": 15,
+      "prepTimeMinutes": 10,
+      "ingredients": [
+        "1 dozen frog legs",
+        "Salt and freshly ground black pepper",
+        "Flour, preferably Wondra",
+        "Peanut oil",
+        "1 teaspoon garlic, chopped",
+        "2 tablespoons parsley, coarsely chopped",
+        "1 tablespoon sweet butter",
+        "A dash of lemon juice"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Royal Blueberry Ice Pops",
+      "healthLabels": [
+        "Vegetarian",
+        "Peanut-Free",
+        "Tree-Nut-Free",
+        "Alcohol-Free"
+      ],
+      "cookTimeMinutes": 243,
+      "prepTimeMinutes": 15,
+      "ingredients": [
+        "2 1/2-pint baskets fresh blueberries, rinsed, drained",
+        "1 8-ounce container blueberry yogurt",
+        "1/4 cup water",
+        "1/4 cup honey",
+        "2 tablespoons sugar"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Chili Cheese Dog Grilled Cheese Recipe",
+      "healthLabels": [
+        "Sugar-Conscious",
+        "Peanut-Free",
+        "Tree-Nut-Free",
+        "Alcohol-Free"
+      ],
+      "cookTimeMinutes": 20,
+      "prepTimeMinutes": 10,
+      "ingredients": [
+        "2 tablespoons butter, cut into three even pieces",
+        "1 hot dog, cut into 4 thin slices lengthwise",
+        "2 slices hearty white bread, such as Pepperidge Farm or Arnold",
+        "2 slices American, Cheddar, or Jack cheese",
+        "1/2 cup your favorite chili",
+        "Kosher salt"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Pandan Wrapped Roast Pork",
+      "healthLabels": [
+        "Sugar-Conscious",
+        "Peanut-Free",
+        "Tree-Nut-Free",
+        "Alcohol-Free"
+      ],
+      "cookTimeMinutes": 60,
+      "prepTimeMinutes": 60,
+      "ingredients": [
+        "14 pandan (screw pine) leaves",
+        "4 lbs pork butt or other well marbled cut of pork cut into large chunks",
+        "smoked sea salt"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Roast Beef",
+      "healthLabels": [
+        "Sugar-Conscious",
+        "Peanut-Free",
+        "Tree-Nut-Free",
+        "Alcohol-Free"
+      ],
+      "cookTimeMinutes": 127,
+      "prepTimeMinutes": 20,
+      "ingredients": [
+        "8-lb. shell roast of beef",
+        "Coarse salt and freshly ground black pepper"
+      ]
+    }
+  ]

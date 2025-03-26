@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html>
+  <title>FoodBear</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+  <link rel="stylesheet" type="text/css" href="styles.css"/>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma" />
+  <style>
+    body,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      font-family: "Karma", sans-serif;
+    }
+    .w3-bar-block .w3-bar-item {
+      padding: 20px;
+    }
+  </style>
+  <body>
+      <!-- Sidebar (hidden by default) -->
+    <nav
+    class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left"
+    style="display: none; z-index: 2; width: 40%; min-width: 300px;"
+    id="mySidebar"
+  >
+    <a
+      href="javascript:void(0)"
+      onclick="w3_close()"
+      class="w3-bar-item w3-button"
+      >Close Menu</a
+    >
+    <a href="/" onclick="w3_close()" class="w3-bar-item w3-button">Food</a>
+    <a href="/about" onclick="w3_close()" class="w3-bar-item w3-button"
+      >About</a
+    >
+  </nav>
+
+  <!-- Top menu -->
+  <div class="w3-top">
+    <div class="w3-white w3-xlarge" style="max-width: 1200px; margin: auto;">
+      <div class="w3-button w3-padding-16 w3-left" onclick="w3_open()">☰</div>
+      <div class="w3-center w3-padding-16">FoodBear</div>
+    </div>
+  </div>
+    <div
+      class="w3-white w3-xlarge w3-padding-64"
+      style="max-width: 1200px; margin: auto;"
+      id="menu"
+    >
+      <div class="w3-content">
+        <h1 class="w3-center w3-jumbo" style="margin-bottom: 64px;">
+          RESTAURANT NAME
+        </h1>
+
+        <div id="Food" class="w3-container menu w3-padding-32 w3-white">
+          <div class="food-item">
+            <h1>
+            <b class="food-item-title">Margherita</b>
+            <span class="food-item-price w3-right w3-tag w3-dark-grey w3-round"
+              >Rs. 1250</span
+            >
+          </h1>
+          <p class="food-item-details w3-text-grey">
+            Fresh tomatoes, fresh mozzarella, fresh basil
+            <button class="food-item-button w3-right w3-tag w3-green w3-round">
+              Order
+            </button>
+          </p>
+        </div>
+          <hr />
+
+          <div class="food-item">
+          <h1>
+            <b class="food-item-title">Formaggio</b>
+            <span class="food-item-price w3-right w3-tag w3-dark-grey w3-round"
+              >Rs. 1550</span
+            >
+          </h1>
+          <p class="food-item-details w3-text-grey">
+            Four cheeses (mozzarella, parmesan, pecorino, jarlsberg)
+            <button class="food-item-button w3-right w3-tag w3-green w3-round">
+              Order
+            </button>
+          </p>
+          <hr />
+
+            <div class="food-item">
+          <h1>
+            <b class="food-item-title">Chicken</b>
+            <span class="food-item-price w3-right w3-tag w3-dark-grey w3-round"
+              >Rs. 1700</span
+            >
+          </h1>
+          <p class="food-item-details w3-text-grey">
+            Fresh tomatoes, mozzarella, chicken, onions
+            <button class="food-item-button w3-right w3-tag w3-green w3-round">
+              Order
+            </button>
+          </p>
+          </div>
+          <hr />
+
+          <div class="food-item">
+          <h1>
+            <b class="food-item-title">Pineapple'o'clock</b>
+            <span class="food-item-price w3-right w3-tag w3-dark-grey w3-round"
+              >Rs. 1650</span
+            >
+          </h1>
+          <p class="food-item-details w3-text-grey">
+            Fresh tomatoes, mozzarella, fresh pineapple, bacon, fresh basil
+            <button class="food-item-button w3-right w3-tag w3-green w3-round">
+              Order
+            </button>
+          </p>
+          </div>
+          <hr />
+
+          <div class="food-item">
+          <h1>
+            <b class="food-item-title">Meat Town</b>
+            <span class="w3-tag w3-red w3-round">Hot!</span
+            ><span class="food-item-price w3-right w3-tag w3-dark-grey w3-round"
+              >Rs. 2000</span
+            >
+          </h1>
+          <p class="food-item-details w3-text-grey">
+            Fresh tomatoes, mozzarella, hot pepporoni, hot sausage, beef,
+            chicken
+            <button class="food-item-button w3-right w3-tag w3-green w3-round">
+              Order
+            </button>
+          </p>
+          </div>
+          <hr />
+
+          <div class="food-item">
+          <h1>
+            <b class="food-item-title">Parma</b>
+            <span class="w3-tag w3-grey w3-round">New</span
+            ><span class="food-item-price w3-right w3-tag w3-dark-grey w3-round"
+              >Rs. 2150</span
+            >
+          </h1>
+          <p class="food-item-details w3-text-grey">
+            Fresh tomatoes, mozzarella, parma, bacon, fresh arugula
+            <button class="food-item-button w3-right w3-tag w3-green w3-round">
+              Order
+            </button>
+          </p>
+          </div>
+          <hr />
+
+          <section class="container content-section">
+            <h2 class="section-header">CART</h2>
+            <div class="cart-row">
+              <span class="cart-item cart-header cart-column">ITEM</span>
+              <span class="cart-price cart-header cart-column">PRICE</span>
+              <span class="cart-quantity cart-header cart-column"
+                >QUANTITY</span
+              >
+            </div>
+            <div class="cart-items"></div>
+            <div class="cart-total">
+              <strong class="cart-total-title">Total</strong>
+              <span class="cart-total-price">Rs. 0</span>
+            </div>
+            <button class="btn btn-primary btn-purchase" type="button">
+              PURCHASE
+            </button>
+          </section>
+        </div>
+
+        <script>
+          if (document.readyState == "loading") {
+            document.addEventListener("DOMContentLoaded", ready);
+          } else {
+            ready();
+          }
+
+          function ready() {
+            var removeCartItemButtons = document.getElementsByClassName(
+              "btn-danger"
+            );
+            for (var i = 0; i < removeCartItemButtons.length; i++) {
+              var button = removeCartItemButtons[i];
+              button.addEventListener("click", removeCartItem);
+            }
+
+            var quantityInputs = document.getElementsByClassName(
+              "cart-quantity-input"
+            );
+            for (var i = 0; i < quantityInputs.length; i++) {
+              var input = quantityInputs[i];
+              input.addEventListener("change", quantityChanged);
+            }
+
+            var addToCartButtons = document.getElementsByClassName(
+              "food-item-button"
+            );
+            for (var i = 0; i < addToCartButtons.length; i++) {
+              var button = addToCartButtons[i];
+              button.addEventListener("click", addToCartClicked);
+            }
+
+            document
+              .getElementsByClassName("btn-purchase")[0]
+              .addEventListener("click", purchaseClicked);
+          }
+
+          function purchaseClicked() {
+            alert("Thank you for your purchase");
+            var cartItems = document.getElementsByClassName("cart-items")[0];
+            while (cartItems.hasChildNodes()) {
+              cartItems.removeChild(cartItems.firstChild);
+            }
+            updateCartTotal();
+          }
+
+          function removeCartItem(event) {
+            var buttonClicked = event.target;
+            buttonClicked.parentElement.parentElement.remove();
+            updateCartTotal();
+          }
+
+          function quantityChanged(event) {
+            var input = event.target;
+            if (isNaN(input.value) || input.value <= 0) {
+              input.value = 1;
+            }
+            updateCartTotal();
+          }
+
+          function addToCartClicked(event) {
+            var button = event.target;
+            var foodItem = button.parentElement.parentElement;
+            var title = foodItem.getElementsByClassName("food-item-title")[0]
+              .innerText;
+            var price = foodItem.getElementsByClassName("food-item-price")[0]
+              .innerText;
+            addItemToCart(title, price);
+            updateCartTotal();
+          }
+
+          function addItemToCart(title, price) {
+            var cartRow = document.createElement("div");
+            cartRow.classList.add("cart-row");
+            var cartItems = document.getElementsByClassName("cart-items")[0];
+            var cartItemNames = cartItems.getElementsByClassName(
+              "cart-item-title"
+            );
+            for (var i = 0; i < cartItemNames.length; i++) {
+              if (cartItemNames[i].innerText == title) {
+                alert("This item is already added to the cart");
+                return;
+              }
+            }
+            var cartRowContents = `
+        <div class="cart-item cart-column">
+            <span class="cart-item-title">${title}</span>
+        </div>
+        <span class="cart-price cart-column">${price}</span>
+        <div class="cart-quantity cart-column">
+            <input class="cart-quantity-input" type="number" value="1">
+            <button class="btn btn-danger" type="button">REMOVE</button>
+        </div>`;
+            cartRow.innerHTML = cartRowContents;
+            cartItems.append(cartRow);
+            cartRow
+              .getElementsByClassName("btn-danger")[0]
+              .addEventListener("click", removeCartItem);
+            cartRow
+              .getElementsByClassName("cart-quantity-input")[0]
+              .addEventListener("change", quantityChanged);
+          }
+
+          function updateCartTotal() {
+            var cartItemContainer = document.getElementsByClassName(
+              "cart-items"
+            )[0];
+            var cartRows = cartItemContainer.getElementsByClassName("cart-row");
+            var total = 0;
+            for (var i = 0; i < cartRows.length; i++) {
+              var cartRow = cartRows[i];
+              var priceElement = cartRow.getElementsByClassName(
+                "cart-price"
+              )[0];
+              var quantityElement = cartRow.getElementsByClassName(
+                "cart-quantity-input"
+              )[0];
+              var price = parseFloat(priceElement.innerText.replace("Rs. ", ""));
+              var quantity = quantityElement.value;
+              total = total + price * quantity;
+            }
+            total = Math.round(total * 100) / 100;
+            document.getElementsByClassName("cart-total-price")[0].innerText =
+              "Rs. " + total;
+          }
+          // Script to open and close sidebar
+      function w3_open() {
+        document.getElementById("mySidebar").style.display = "block";
+      }
+
+      function w3_close() {
+        document.getElementById("mySidebar").style.display = "none";
+      }
+        </script>
+      </div>
+    </div>
+  </body>
+</html>
